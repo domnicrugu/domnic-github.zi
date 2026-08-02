@@ -11,9 +11,10 @@ For project
   </style>
 </head>
 <body>
-  <h1>Hey, I'm Jana 🚀</h1>
-  <p>19 | DevOps Enthusiast | Future SRE</p>
-  <p>Building and deploying things on the internet</p>
+  <h1>Hey, I'm Domnic januu i like 🍎 more then people. </h1>
+  <h2>  chopperdom| Domleww | </h2>
+  <p> 19years old betch 3rd year student | Future SRE</p>
+  <p> you konw i have been updating this damm lines at night 3:34am morning and it's 3rd agust </p>
   <a href="#" class="btn">My Projects</a>
 </body>
 </html> git staus
