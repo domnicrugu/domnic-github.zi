@@ -10,6 +10,7 @@
             background:#f5f5f5;
             font-family:Arial, sans-serif;
             padding:60px;
+            margin:0;
         }
 
         nav{
@@ -30,14 +31,40 @@
             color:#00b894;
         }
 
+        /* Hero Section */
+
+        .hero{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            gap:60px;
+        }
+
+        .left{
+            width:55%;
+        }
+
+        .right{
+            width:45%;
+            text-align:center;
+        }
+
+        .right img{
+            width:350px;
+            border-radius:20px;
+            box-shadow:0 10px 25px rgba(0,0,0,.15);
+        }
+
         h1{
             font-size:60px;
             color:#222;
+            margin-bottom:10px;
         }
 
         p{
             font-size:22px;
             color:#555;
+            line-height:1.6;
         }
 
         button{
@@ -47,6 +74,11 @@
             border:none;
             border-radius:8px;
             font-size:18px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#ff4d2d;
         }
 
     </style>
@@ -56,7 +88,7 @@
 <body>
 
     <nav>
-        <h2>Domnic</h2>
+        <h2>Dom chopper </h2>
 
         <div>
             <a href="#">Home</a>
@@ -66,17 +98,30 @@
         </div>
     </nav>
 
-    <h1>Hey, I'm Domnic 🚀</h1>
+    <div class="hero">
 
-    <p>19 | DevOps Engineer | Future SRE</p>
+        <div class="left">
 
-    <p>
-        Hi, I'm Domnic, a B.Tech Computer Science student who enjoys coding,
-        playing chess, watching anime, and reading manga. I'm always learning
-        new skills and working toward a successful career in technology.
-    </p>
+            <h1>Hey, I'm Domnic 🍎🧌</h1>
 
-    <button>Contact Me</button>
+            <p>19 | DevOps Engineer | Future SRE</p>
+
+            <p>
+                Hi, I'm Domnic, a B.Tech Computer Science student who enjoys coding,
+                playing chess, watching anime, and reading manga. I'm always learning
+                new skills and working toward a successful career in technology.
+            </p>
+
+            <button>Contact Me</button>
+
+        </div>
+
+        <div class="right">
+    <h2>📷 My Photo Here</h2>
+    
+        </div>
+
+    </div>
 
 </body>
 
